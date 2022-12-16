@@ -6,4 +6,5 @@
  *
  */
 module NotariumAventurica {
+	requires java.desktop;
 }

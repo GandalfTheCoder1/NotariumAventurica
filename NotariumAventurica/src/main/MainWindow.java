@@ -1,5 +1,8 @@
 package main;
+import java.awt.*;
 
-public class MainWindow {
-
+public class MainWindow extends Frame implements WindowOperations{
+	public MainWindow() {
+		
+	}
 }

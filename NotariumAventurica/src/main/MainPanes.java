@@ -8,9 +8,10 @@ public class MainPanes extends JTabbedPane{
 		JTabbedPane mainPane = new JTabbedPane();
 		
 		//create all Panels
-		JPanel panelChars = new JPanel();
+		JTabbedPane panelChars = new JTabbedPane();
 		JPanel panelCombat = new JPanel();
 		JPanel panelItems = new JPanel();
+		CharacterPane allChars = new CharacterPane(panelChars);
 		
 		//add all panels to MainPane
 		mainPane.add("Charaktere", panelChars);

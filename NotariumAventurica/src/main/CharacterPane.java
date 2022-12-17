@@ -7,6 +7,9 @@ public class CharacterPane extends JTabbedPane{
 		//create character pane
 		JTabbedPane characters = new JTabbedPane();
 		
+		JPanel test = new JPanel();
+		characters.add("Alrik", test);
+		
 		//add to main pane
 		mainPane.add(characters);
 	}
